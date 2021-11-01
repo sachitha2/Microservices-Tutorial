@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: post-service
+spec:
+  containers:
+    - name: post-service
+      image: 25992/ms-post:0.0.1
